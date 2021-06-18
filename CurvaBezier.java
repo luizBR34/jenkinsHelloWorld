@@ -14,7 +14,7 @@ public class CurvaBezier extends JPanel {
 	private static void criarGUI() {
 
 	JFrame.setDefaultLookAndFeelDecorated(true);
-	JFrame janela = new JFrame("Programa que desenha uma Curva C�bica");
+	JFrame janela = new JFrame("Programa que desenha uma Curva Cúbica");
 	janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	janela.setContentPane(new CurvaBezier());
 	janela.setVisible(true);
@@ -23,6 +23,8 @@ public class CurvaBezier extends JPanel {
 
 
 	public static void main(String[] args) {
+		
+	System.out.println("Minha primeira mudança by Jenkins!");
 
 	SwingUtilities.invokeLater(new Runnable() {
 		public void run() {
