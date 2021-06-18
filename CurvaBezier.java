@@ -24,7 +24,7 @@ public class CurvaBezier extends JPanel {
 
 	public static void main(String[] args) {
 		
-	System.out.println("Minha primeira mudança by Jenkins!");
+	System.out.println("Minha primeira mudança pelo Jenkins!");
 
 	SwingUtilities.invokeLater(new Runnable() {
 		public void run() {
